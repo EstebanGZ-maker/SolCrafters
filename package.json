@@ -1,0 +1,21 @@
+{
+  "name": "solcrafters",
+  "version": "1.0.0",
+  "description": "Pagína web para  SolCrafters, enfocada en soluciones tecnologicas",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "EstebanGZ-maker"
+  },
+  "author": "Esteban Garcia",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.4"
+  }
+}
