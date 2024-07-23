@@ -1,11 +1,4 @@
-import express from "express";
-import helmet from "helmet";
-import morgan from "morgan";
+import app from "./app.js"
 
-const app = express(); 
-
-app.use(morgan(`dev`));
-app.use(express.json());
-app.use(helmet());
-
-export default app; 
+app.listen( process.env.PORT || 4000 );
+console.log(`Server on port: `, process.env.PORT || 4000); 

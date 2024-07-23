@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Pagína web para  SolCrafters, enfocada en soluciones tecnologicas",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "dev": "nodemon src/index.js"
+    "dev": "node src/index.js"
   },
   "repository": {
-    "type": "git",
     "url": "EstebanGZ-maker"
   },
   "author": "Esteban Garcia",
