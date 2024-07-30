@@ -1,7 +1,12 @@
 function OurService() {
   return (
-    <div>OurService</div>
+
+  <div  >
+    
+  </div>
+
   )
+  
 }
 
 export default OurService
