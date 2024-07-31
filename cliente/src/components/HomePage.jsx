@@ -6,7 +6,7 @@ const HomePage = () => {
         <p> <strong>Artesanos de la tecnología </strong></p>
         <p></p>
         
-        <img src="../img.solcraft/logo.png" width="500" height="300" />
+        <img  width="500" height="300" />
 
   </div>
   );
