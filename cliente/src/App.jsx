@@ -1,13 +1,13 @@
 
-import { BrowserRouter as Router, Link } from 'react-router-dom';
+import { BrowserRouter as Router} from 'react-router-dom';
 
 import HomePage from "./components/HomePage";
 import Ourservice from "./components/OurService";
 import Customers from "./components/Customers";
 import AboutUs from "./components/AboutUs";
 import ContactUs from "./components/ContactUs";
-/*import Navbar from "./components/Navbar";
- import Footer from "./components/Footer"; */
+import Navbar from "./components/headers"; 
+import Footer from "./components/Footer"; 
 
 
 
@@ -16,21 +16,10 @@ const App = () => {
   return (
     <Router>
       <div>
-        <nav>
-          
-            <Link to="#home">Home</Link>
-            <Link to="#ourService">Servicios</Link>
-            <Link to="#customers">Clientes</Link>
-            <Link to="#about">About us</Link>
-            <Link to="#contact">Contactanos</Link>
 
-        </nav>
-
-        <hr />
-
-        {/* <section id="navbar">
+        <section id="Navbar">
           {< Navbar/>} 
-        </section> */}
+        </section>
       
         <section id="home">
           {< HomePage/>} 
@@ -52,9 +41,9 @@ const App = () => {
           {< ContactUs/>} 
         </section>
 
-        {/* <section id="footer">
+        <section id="footer">
           {< Footer/>} 
-        </section> */}
+        </section>
 
       </div>
     </Router>
