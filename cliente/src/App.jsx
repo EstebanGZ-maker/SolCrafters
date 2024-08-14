@@ -17,11 +17,11 @@ const App = () => {
     <Router>
       <div>
 
-        <section id="Navbar">
+        <section id="Navbar" >
           {< Navbar/>} 
         </section>
       
-        <section id="home">
+        <section id="home"  >
           {< HomePage/>} 
         </section>
         
@@ -33,7 +33,7 @@ const App = () => {
           {< Customers/>} 
         </section>
 
-        <section id="aboutUs">
+        <section id="sobreNosotros">
           {< AboutUs/>} 
         </section>
 

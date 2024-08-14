@@ -1,5 +1,6 @@
-import "./service.css"
-import  "../index.css"
+import "./style.css"
+import "../index.css"
+import clientes from '../assets/clientes.png';
 
 function Customers() {
 
@@ -13,32 +14,40 @@ function Customers() {
   ];
 
 
+  // eslint-disable-next-line react/prop-types
   const CustomersCard = ({ title, icon }) => {
+    
     return (
-      <div className="service-card ">
-        <div className="service-card-content">
-            <h2>{title}</h2>
 
+      <section>
 
-          <div className="">
-            <span>{icon}</span>
+        <div className="soy-el-div">
+          <div className="customers-icon">
+              <span>{title}</span>
+              <h2>{icon}</h2>
           </div>
         </div>
-      </div>
+
+      </section>
+
     );
   };
-
+        
+  
   return (
-    <div className="our-service">
+    <div >
       <header className="App-header">
         <h1>CLIENTES</h1>
       </header>
-      <div className="services-container">
+      <div >
         {customers.map((service, index) => (
           <CustomersCard key={index} title={service.title} description={service.description} icon={service.icon} />
         ))}
       </div>
-        <div><img src="" alt="soy la imagen pa" /></div>
+        <div className="customer-">
+          <img src={clientes} alt="soy la imng" />
+        </div>
+        
         {/* <div className="contact-container">
           <button className="contact-button">CONTACTANOS</button>
         </div> */}

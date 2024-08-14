@@ -1,10 +1,24 @@
+import aboutimg from "../assets/aboutimg.png";
+import logo from "../assets/logo.png";
+
 function AboutUs() {
   
   return (
+
     <div>
-
         <h2>About us</h2>
+      <div>
+          <img src={aboutimg} alt="" />
+      </div>
 
+        <h3>SOLUCIONES A TU ALCANCE</h3>
+        <div>
+          <img src={logo} alt="" />
+          {/* <h2>
+            SOLCRAFT
+          </h2> */}
+
+        </div>
       <p>
           
         $ help

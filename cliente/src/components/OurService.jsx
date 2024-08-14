@@ -1,4 +1,4 @@
-import "./service.css"
+import "./style.css"
 import  "../index.css"
 /* import React from 'react'; */
 
@@ -14,6 +14,7 @@ function OurService() {
   ];
 
   
+  // eslint-disable-next-line react/prop-types
   const ServiceCard = ({ title, description, icon }) => {
     return (
       <div className="service-card ">
@@ -33,7 +34,7 @@ function OurService() {
   return (
     <div className="our-service">
       <header className="App-header">
-        <h1>SERVICIOS</h1>
+        <h1 className="titulo-service" >SERVICIOS</h1>
       </header>
       <div className="services-container">
         {services.map((service, index) => (
